@@ -1,0 +1,8 @@
+aside {
+    background-color: #fc6404;
+}
+
+aside:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
