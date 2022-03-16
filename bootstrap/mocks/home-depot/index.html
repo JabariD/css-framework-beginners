@@ -15,6 +15,7 @@
     />
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <!-- Orange Button Bar -->
     <aside class="container-fluid text-center text-white p-1">
@@ -22,12 +23,36 @@
     </aside>
 
     <!-- Mark this to be a nav -->
-    <nav class="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <!-- Extend the width of the screen -->
-      <div class="container-fluid">
+      <div id="nav" class="container-fluid">
         <!-- Home Depot Brand Name -->
         <a class="navbar-brand" href="https://www.homedepot.com/"><img class="" src="https://www.rewindandcapture.com/wp-content/uploads/2020/08/Home-Depot-Logo.jpg" alt="Home Depot Logo" height="37"></a>
-        <!-- Brand Menu -->
+        
+        <!-- Define hamburger menu icon -->
+        <button
+          class="navbar-toggler border-0 float-md-end"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" id="hamburger-menu"></span>
+        </button>
+
+        <!-- Dummy links -- notice the connection is shared by navbarSupportedContent -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- Styling the actual links now... -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Link item -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+          </ul>
+      </div>
       </div>
 
 

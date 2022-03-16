@@ -6,3 +6,14 @@ aside:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media (max-width:1000px) {
+    #nav {
+        justify-content: flex-start;
+        
+    }
+  }
+
+  #hamburger-menu {
+    color: orange;
+  }
