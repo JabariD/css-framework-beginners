@@ -7,6 +7,26 @@ aside:hover {
     cursor: pointer;
 }
 
+
+/* search bar */
+#searchBar {
+    width: 20em;
+}
+
+#navIcons {
+    font-size: 1.5em;
+}
+
+@media (max-width:875px) {
+    #searchBar {
+        display: none;
+    }
+
+    #navIcons {
+        display: none;
+    }
+  }
+
 @media (max-width:1000px) {
     #nav {
         justify-content: flex-start;
