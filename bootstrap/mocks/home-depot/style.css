@@ -52,3 +52,12 @@ aside:hover {
       left: 0;
       max-height: 20em;
   }
+
+  /* Card Icons */
+.card-icon {
+    font-size: 1.2em;
+}
+
+.card-font-icon {
+    font-size: 3em;
+}
