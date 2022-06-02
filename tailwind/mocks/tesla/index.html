@@ -8,18 +8,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body class="">
     <!-- Navigation -->
-    <nav class="h-1 bg-gray-50 mx-4">
-      <!-- Tesla Impact Report -->
+    <nav class="bg-gray-50 mx-4 block">
+        <!-- Tesla Impact Report -->
         <section class="text-center p-3">
             <p class="underline cursor-pointer">Read Tesla's 2021 Impact Report</p>
         </section>
 
         <!-- Navigation -->
         <section class="flex justify-between">
-          <!-- Tesla logo -->
+            <!-- Tesla logo -->
             <div><img src="./assets/images/tesla-logo-removebg-preview.png" class="h-20 w-15"></div>
+
+            <!-- Menu items -- Shows on screen lg -->
+            <div class="hidden lg:block"></div>
 
             <!-- Menu Button -- Hides on screen lg -->
             <div class="self-center lg:hidden">
@@ -29,8 +32,25 @@
     </nav>
     <!-- End of navigation -->
 
-    <main>
-        <section></section>
+    <main class="flex flex-col">
+        <!-- Model 3 Section  -->
+        <!-- bg-[url('./assets/images/model3.jpg')] max-h-screen -->
+        <section>
+          <img src="./assets/images/model3.jpg" alt="" srcset="" class="w-full object-cover object-center" style="height: 88vh;">          
+          <!-- <div>
+            <h2>Model 3</h2>
+            <p>Order Online for Touchless Delivery</p>
+          </div> -->
+
+          <!-- Order Buttons -->
+          <div>
+
+          </div>
+         
+
+        </section>
+
+        <!-- Model Y Section -->
         <section></section>
         <section></section>
         <section></section>
@@ -44,3 +64,5 @@
     </footer>
   </body>
 </html>
+
+<!-- <img src="./assets/images/model3.jpg" alt="" class="max-w-full h-auto mt-5"> -->
