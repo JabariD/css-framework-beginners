@@ -10,14 +10,21 @@
   </head>
   <body class="">
     <!-- Navigation -->
-    <nav class="bg-gray-50 mx-4 block">
+    <nav class="bg-gray-50 sticky top-0 z-50">
         <!-- Tesla Impact Report -->
         <section class="text-center p-3">
             <p class="underline cursor-pointer">Read Tesla's 2021 Impact Report</p>
         </section>
+    </nav>
+    <!-- End of navigation -->
 
-        <!-- Navigation -->
-        <section class="flex justify-between">
+    <main class="flex flex-col">
+        <!-- Model 3 Section  -->
+        <!-- bg-[url('./assets/images/model3.jpg')] max-h-screen  text-white-->
+        <section class="bg-[url('./assets/images/model3.jpg')] w-full bg-cover bg-center" style="height: 88vh;">
+
+          <!-- Navigation -->
+          <section class="flex justify-between sticky top-10">
             <!-- Tesla logo -->
             <div><img src="./assets/images/tesla-logo-removebg-preview.png" class="h-20 w-15"></div>
 
@@ -26,32 +33,26 @@
 
             <!-- Menu Button -- Hides on screen lg -->
             <div class="self-center lg:hidden">
-              <button class="px-4 py-1 rounded-lg bg-gray-100 hover:bg-gray-200">Menu</button>
+              <button class="px-4 py-1 rounded-lg bg-gray-100 bg-opacity-10 hover:bg-slate-400">Menu</button>
             </div>
-        </section>
-    </nav>
-    <!-- End of navigation -->
+          </section>
 
-    <main class="flex flex-col">
-        <!-- Model 3 Section  -->
-        <!-- bg-[url('./assets/images/model3.jpg')] max-h-screen -->
-        <section>
-          <img src="./assets/images/model3.jpg" alt="" srcset="" class="w-full object-cover object-center" style="height: 88vh;">          
-          <!-- <div>
-            <h2>Model 3</h2>
-            <p>Order Online for Touchless Delivery</p>
-          </div> -->
 
-          <!-- Order Buttons -->
-          <div>
+            <!-- Car Header -->
+            <div class="mt-8 text-center" style="margin-bottom: 40rem;">
+              <h2 class="text-5xl mb-3">Model 3</h2>
+              <p>Order Online for Touchless Delivery</p>
+            </div>
 
-          </div>
-         
-
+            <!-- Order Buttons -->
+            <div class="text-center">
+              <button class="mr-3 px-16 py-1.5 rounded-3xl max-w-xs bg-gray-700 text-white uppercase font-semibold">Custom order</button>
+              <button class="mr-3 px-16 py-1.5 rounded-3xl max-w-xs bg-white text-black uppercase font-semibold">Existing Inventory</button>
+            </div>
         </section>
 
         <!-- Model Y Section -->
-        <section></section>
+        <section class=" h-96"></section>
         <section></section>
         <section></section>
         <section></section>
