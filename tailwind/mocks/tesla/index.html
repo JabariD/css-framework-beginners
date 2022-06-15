@@ -7,6 +7,9 @@
     <title>Electric Cars, Solar, & Clean Energy | Tesla</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Animate.css animate.style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
   <body>
     <!-- Navigation -- Impact Report -->
@@ -18,7 +21,7 @@
     </nav>
 
     <!-- Navigation Links -->
-    <section class="fixed w-full top-12 z-50 flex justify-between">
+    <section class="fixed w-full top-12 z-50 flex justify-between animate__animated animate__fadeIn">
       <!-- Tesla logo -->
       <div class="ml-4"><img src="./assets/images/tesla-logo-removebg-preview.png" class="h-20 w-15"></div>
 
@@ -74,15 +77,15 @@
             
           <!-- Car Header -->
           <div class="mt-32 grow text-center">
-            <h2 class="text-5xl mb-3">Model 3</h2>
-            <p>Order Online for <span class="border-b border-black border-solid hover:border-b-2 hover:cursor-pointer">Touchless Delivery</span></p>
+            <h2 class="text-5xl mb-3 animate__animated animate__fadeInUp" style="animation-delay: 0.2s">Model 3</h2>
+            <p class="animate__animated animate__fadeInUp" style="animation-delay: 0.5s">Order Online for <span class="border-b border-black border-solid hover:border-b-2 hover:cursor-pointer">Touchless Delivery</span></p>
 
           </div>
 
           <!-- Order Buttons -->
           <div class="mb-9 text-center">
-            <button class="mr-3 px-16 py-2 rounded-3xl bg-gray-700 text-white uppercase font-semibold text-sm">Custom order</button>
-            <button class="px-16 py-2 rounded-3xl bg-white text-black uppercase font-semibold text-sm">Existing Inventory</button>
+            <button class="mr-3 px-16 py-2 rounded-3xl bg-gray-700 text-white uppercase font-semibold text-sm animate__animated animate__fadeInLeft" style="animation-delay: 0.5s">Custom order</button>
+            <button class="px-16 py-2 rounded-3xl bg-white text-black uppercase font-semibold text-sm animate__animated animate__fadeInRight" style="animation-delay: 0.5s">Existing Inventory</button>
           </div>
         </section>
 
